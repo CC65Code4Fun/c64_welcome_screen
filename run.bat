@@ -1,0 +1,1 @@
+C:\Users\Facu\workspace\personal\playgrounds\commodore\GTK3VICE-3.5-win64\bin\x64sc welcome.prg
