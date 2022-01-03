@@ -9,7 +9,7 @@
 
 #define ScreenY					25
 #define ScreenX					40
-
+#define spritePossitionOne 0xD000
 
 unsigned char getkey(void);
 
@@ -97,7 +97,8 @@ int main(void)
 
     char c;
     printf("%c", 147);
-   
+    POKE(53280, 0);
+    POKE(spritePossitionOne + 33, 0); // Set background color
     renderBackground(backgroundCharPresents, backgroundColorPresents);
     
 
